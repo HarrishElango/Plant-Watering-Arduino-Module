@@ -11,8 +11,12 @@ For this code to work, you need an Arduino grove board, Arduino IDE, MOSFET, moi
 ## Usage Instructions
 1. Download code file 
 2. Open code file in Arduino IDE
-3. Verify and upload code file to Arduino board using corresponding port - May need to be changed depending on computer
-4. Place moisture sensor into plant pot of choice
-5. Ensure that water pump is placed in an adequate source of water
-6. Place hose from water pump into plant of choice
-7. Keep board powered for use
+3. Plug Arduino board into computer.
+4. Verify and upload code file to Arduino board using corresponding port - Will likely need to be changed in depending on computer. 
+5. Place moisture sensor into plant pot of choice
+6. Ensure that water pump is placed in an adequate source of water
+7. Place hose from water pump into plant of choice
+8. Keep board powered for use
+
+## Identifying correct port for system
+When plugging in Arduino board, at the bottom right corner of the application, it will state which port the board is connected to. This will need to be changed in the code where you initialize the location of the board to ensure code is uploaded properly to the board. 
