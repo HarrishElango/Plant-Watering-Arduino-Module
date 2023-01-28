@@ -1,7 +1,9 @@
 # Plant-Watering-Arduino-Module
 
 ## Description
-C code that allows using an Arduino grove board with external moisture sensor, MOSFET and water pump for a standalone plant watering system that detects soil moisture and waters the soil accordingly.
+C++ code that allows using an Arduino grove board with external moisture sensor, MOSFET and water pump for a standalone plant watering system that detects soil moisture and waters the soil accordingly.
+There is also accompanying code used in development, that allowed for visualization of the moisture value via a graph, as well as auxilary operation functions such as being able to control the system using a slider and a button. 
+
 
 ## Dependencies
 For this code to work, you need an Arduino grove board, Arduino IDE, MOSFET, moisture sensor and water pump. 
